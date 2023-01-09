@@ -6,9 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicios</title>
 
-    <script type="Text/javascript" src="exercicios.js02"></script>
+    <script type="Text/javascript" src="exerciciosjava.js"></script>
 </head>
 <body>
+    <h1>Exercicios transcrito para o Javascript</h1>
+    <br/>
+    <h3>1. Crie um programa que solicite a velocidade de um carro e apresente a mensagem Multado</h3>
+    <br/>
+    <input type="number" id="inputVelocidadeMultado"><input>
     <button onclick="velocidadeMultado(70)">Exercicios 1 - Radar</button>
+    <br/>
+
+    <h2>2. Crie um programa que solicite o nome, a nota 1 e a nota 2 de um aluno. Em seguida </h2>
+    <br/>
+    <label>Digite seu nome</label>
+    <input type="text" id="txtEx2Nome">
+    <br/>
+    <br/>
+    <label>Nota 01</label>
+    <input type="number" id="numberEx2Nomenota1">
+    <br/>
+    <br/>
+    <label>Nota 02</label>
+    <input type="number" id="numberEx2Nomenota2">
+    <br/>
+    <br/>
+
+    <div id="notaRecuperação" style="display: none;">
+         <label>Nota de Recuperação</label>
+         <input type="number" id="numberEx2notaRecuperação">
+    </div>
+
+    <div id="DivBotaoMedia" style="display: Block;">
+         <button onclick="Calcularnota()" style="color:deepskyblue">Calcular a nota</button>
+         <br/>
+         <div id="notaRecuperação" style="display: none;"></div>
+         <button onclick="CalcularRecuperação()" style="color: red;">Calcular Resultado da recuperação</button>
+    </div>
+    <br/>
+    <br/>
+
+    <h4>4.</h4>
 </body>
 </html>
