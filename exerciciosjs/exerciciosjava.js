@@ -18,7 +18,7 @@ function calculoNota()
 
     var media = (nota1 + nota2)/2;
 
-    if(media >=60);
+    if(media >= 60);
     {
         alert(nome + 'você foi aprovado, sua media foi:' + media);
     }
@@ -47,11 +47,9 @@ function CalculoRecuperação()
 function MudarEstado(elemento){
     var display = document.getElementById(elemento).style.display;
     if(display == "none");
-    {
         documento.getElementById(elemento).style.display = 'block';
-    }
     else
-    {
         documento.getElementById(elemento).style.display = 'none';
-    }
+
 }
+function preçoSuco()
